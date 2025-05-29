@@ -8,7 +8,7 @@ int main() {
 
     fahrenheit = (celsius * 9.0 / 5.0) + 32.0;
 
-    std::cout << "Temperature in Fahrenheit: " << fahrenheit << std::endl;
+    std::cout << "Temperature in Fahrenheit: " << fahrenheit;
 
     return 0;
 }
