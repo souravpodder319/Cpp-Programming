@@ -31,6 +31,9 @@ int main (){
         cout << "Saturday";
         break;
 
+        default:
+        cout << "Looking forward to the Weekend";
+
     }
     return 0;
 }
