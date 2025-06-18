@@ -2,8 +2,10 @@
 using namespace std;
 int main ()
 {
-    int numbers=12345;
-    reverse=0;
+    int numbers;
+    cout<<"Enter your numbers: ";
+    cin>> numbers;
+    int reverse=0;
     while (numbers)
     {
         reverse= reverse*10 + numbers%10;
