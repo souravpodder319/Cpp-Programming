@@ -11,7 +11,7 @@ for(int i=1; i<=4; i++) {
         cout<<"*";
        
     }
-    cout<< "\n"; //Hello Sourav
+    cout<< "\n"; 
 
     }
      
