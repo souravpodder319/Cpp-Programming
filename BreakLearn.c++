@@ -5,7 +5,8 @@ int main (){
     for (int i=0; i<6 ; i++)
     {
         if (i==4){
-            break;
+            //break;
+            continue;
         }
         cout << i << endl;
     }
