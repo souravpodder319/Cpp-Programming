@@ -1,12 +1,11 @@
 #include <iostream>
-#include <iomanip>
 using namespace std;
 int main ()
 {
     int year, r;
     cin>> year;
     r = year % 100;
-    cout<<'k'<<setw(2)<<setfill('0')<<r<<endl;
+    cout<<'k'<<r<<endl;
 
      return 0;
 
