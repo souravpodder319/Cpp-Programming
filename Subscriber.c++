@@ -20,6 +20,9 @@ int main (){
     else if(n<10000000){
         cout<<(n/10000)*10000<<endl;
     }
+    else if(n<10000000){
+        cout<<(n/10000)*10000<<endl;
+    }
       else {
         cout<<(n/100000)*100000<<endl;
     }
