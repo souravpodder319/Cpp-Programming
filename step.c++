@@ -9,9 +9,9 @@ int main (){
     }
 
     int ans= a[0];
-    for(int i=0; i<n-1; i++){
-        if(a[i] < a[i+1]){
-            ans= a[i+1];
+    for(int j=0; j<n-1; j++){
+        if(a[j] < a[j+1]){
+            ans= a[j+1];
            
         }
         else{
