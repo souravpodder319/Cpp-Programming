@@ -18,9 +18,6 @@ int main (){
            
         }
             }
-    
-    
-    
 
     if(flag==1){
         cout<<"Yes"<<endl;

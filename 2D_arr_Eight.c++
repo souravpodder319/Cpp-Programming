@@ -13,7 +13,7 @@ int main (){
 
     int mx[b], mn[a];
      for( int j=0; j<b; j++){
-        mx[j]=-2000;
+        mx[j]=-1000;
         for(int i=0; i<a; i++)
        {
           if(arr[i][j]>mx[j]){
@@ -24,7 +24,7 @@ int main (){
     }
 
     for( int i=0; i<a; i++){
-        mn[i]=2000;
+        mn[i]=1000;
         for(int j=0; j<b; j++)
        {
           if(arr[i][j]<mn[i]){

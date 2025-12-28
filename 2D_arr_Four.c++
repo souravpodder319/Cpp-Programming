@@ -18,7 +18,7 @@ int main (){
     for(int i=0; i<b; i++){
         int got=0;
         for(int j=0; j<a; j++){
-            if(arr[j][i]=='x'){ // ← also fix here
+            if(arr[j][i]=='x'){ 
                 got=1;
                 break;
             }

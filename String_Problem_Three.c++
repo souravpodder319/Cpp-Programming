@@ -9,9 +9,9 @@ int main() {
 
     for(int i = 0; i < n; i++) {
         cout << s[i];
-        //if(i!= s.size() - 1){
+        if(i!= s.size() - 1){
         cout << " ";
-        //}
+        }
             
     }
 }

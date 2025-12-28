@@ -24,7 +24,7 @@ int main (){
                 y=0;
             }
             else{
-                y -= empty;
+                y = y-empty;
                 x=g;
             }
         }
