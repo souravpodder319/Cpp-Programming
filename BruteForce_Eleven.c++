@@ -15,16 +15,15 @@ int main (){
            
         flag=1;
 
-            }
-          }
+     }
+    }
 
           if(flag==1){
             cout<<"Yes"<<endl;
             
           }
           else
-            cout<<"No"<<endl;
-  
+            cout<<"No"<<endl;  
 
         }
   return 0;

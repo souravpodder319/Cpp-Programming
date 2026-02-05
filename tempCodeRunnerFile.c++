@@ -1,13 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+int sum(int n){
+
+    int t = -1+2-3+n;
+    return t;
+
+}
+
 int main (){
-    int T;
-    cin>>T;
-    while (T--){
-        int n,s;
-        cin>>n;
-        s= n+2;
-        cout<<s<<endl;
-    }
+    int x;
+    cin>>x;
+    cout<<sum(x);
     return 0;
 }
+
