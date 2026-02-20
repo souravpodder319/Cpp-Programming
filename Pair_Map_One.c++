@@ -10,6 +10,6 @@ int main (){
     }
 
     for (auto [num,cnt]:mp){
-        cout<<num<<' '<<cnt<<endl; //hello world
+        cout<<num<<' '<<cnt<<endl;
     }
 }
